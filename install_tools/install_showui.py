@@ -1,17 +1,14 @@
 import os
-from huggingface_hub import hf_hub_download, list_repo_files
+from modelscope.hub.snapshot_download import snapshot_download
 
 # Specify the model repository and destination folder
-model_repo = "showlab/ShowUI-2B"
+model_repo = "AI-ModelScope/ShowUI-2B"
 destination_folder = "./showui-2b"
 
 # Ensure the destination folder exists
 os.makedirs(destination_folder, exist_ok=True)
 
-# List all files in the repository
-files = list_repo_files(repo_id=model_repo)
-
-# Download each file to the destination folder
-for file in files:
-    file_path = hf_hub_download(repo_id=model_repo, filename=file, local_dir=destination_folder)
-    print(f"Downloaded {file} to {file_path}")
+# Download the model using ModelScope
+print(f"开始从 ModelScope 下载模型 {model_repo}...")
+model_path = snapshot_download(model_repo, cache_dir=destination_folder)
+print(f"模型已下载到: {model_path}")
