@@ -4,8 +4,7 @@
     </a>
 </h2>
 
-
-<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
+<h5 align="center">如果您喜欢我们的项目，请在GitHub上给我们一个⭐星标以获取最新更新。</h5>
 
 <h5 align=center>
 
@@ -13,155 +12,148 @@
 [![Project Page](https://img.shields.io/badge/Project_Page-GUI_Agent-blue)](https://computer-use-ootb.github.io)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshowlab%2Fcomputer_use_ootb&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshowlab%2Fcomputer_use_ootb&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
 
-
 </h5>
 
-## <img src="./assets/ootb_icon.png" alt="Star" style="height:25px; vertical-align:middle; filter: invert(1) brightness(2);">  Overview
-**Computer Use <span style="color:rgb(106, 158, 210)">O</span><span style="color:rgb(111, 163, 82)">O</span><span style="color:rgb(209, 100, 94)">T</span><span style="color:rgb(238, 171, 106)">B</span>**<img src="./assets/ootb_icon.png" alt="Star" style="height:20px; vertical-align:middle; filter: invert(1) brightness(2);"> is an out-of-the-box (OOTB) solution for Desktop GUI Agent, including API-based (**Claude 3.5 Computer Use**) and locally-running models (**<span style="color:rgb(106, 158, 210)">S</span><span style="color:rgb(111, 163, 82)">h</span><span style="color:rgb(209, 100, 94)">o</span><span style="color:rgb(238, 171, 106)">w</span>UI**, **UI-TARS**). 
+## <img src="./assets/ootb_icon.png" alt="Star" style="height:25px; vertical-align:middle; filter: invert(1) brightness(2);"> 概述
+**Computer Use <span style="color:rgb(106, 158, 210)">O</span><span style="color:rgb(111, 163, 82)">O</span><span style="color:rgb(209, 100, 94)">T</span><span style="color:rgb(238, 171, 106)">B</span>**<img src="./assets/ootb_icon.png" alt="Star" style="height:20px; vertical-align:middle; filter: invert(1) brightness(2);"> 是一个开箱即用（OOTB）的桌面GUI代理解决方案，包括基于API的（**Claude 3.5 Computer Use**）和本地运行模型（**<span style="color:rgb(106, 158, 210)">S</span><span style="color:rgb(111, 163, 82)">h</span><span style="color:rgb(209, 100, 94)">o</span><span style="color:rgb(238, 171, 106)">w</span>UI**、**UI-TARS**）。
 
-**No Docker** is required, and it supports both **Windows** and **macOS**. OOTB provides a user-friendly interface based on Gradio.🎨
+**无需Docker**，同时支持**Windows**和**macOS**。OOTB提供了一个基于Gradio的用户友好界面。🎨
 
-Visit our study on GUI Agent of Claude 3.5 Computer Use [[project page]](https://computer-use-ootb.github.io). 🌐
+访问我们关于Claude 3.5 Computer Use的GUI代理研究[[项目页面]](https://computer-use-ootb.github.io)。🌐
 
-## Update
-- **[2025/02/08]** We've added the support for [**UI-TARS**](https://github.com/bytedance/UI-TARS). Follow [Cloud Deployment](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#cloud-deployment) or [VLLM deployment](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#local-deployment-vllm) to implement UI-TARS and run it locally in OOTB.
-- **Major Update! [2024/12/04]** **Local Run🔥** is now live! Say hello to [**<span style="color:rgb(106, 158, 210)">S</span><span style="color:rgb(111, 163, 82)">h</span><span style="color:rgb(209, 100, 94)">o</span><span style="color:rgb(238, 171, 106)">w</span>UI**](https://github.com/showlab/ShowUI), an open-source 2B vision-language-action (VLA) model for GUI Agent. Now compatible with `"gpt-4o + ShowUI" (~200x cheaper)`*  & `"Qwen2-VL + ShowUI" (~30x cheaper)`* for only few cents for each task💰! <span style="color: grey; font-size: small;">*compared to Claude Computer Use</span>.
-- **[2024/11/20]** We've added some examples to help you get hands-on experience with Claude 3.5 Computer Use.
-- **[2024/11/19]** Forget about the single-display limit set by Anthropic - you can now use **multiple displays** 🎉!
-- **[2024/11/18]** We've released a deep analysis of Claude 3.5 Computer Use: [https://arxiv.org/abs/2411.10323](https://arxiv.org/abs/2411.10323).
-- **[2024/11/11]** Forget about the low-resolution display limit set by Anthropic — you can now use *any resolution you like* and still keep the **screenshot token cost low** 🎉!
-- **[2024/11/11]** Now both **Windows** and **macOS** platforms are supported 🎉!
-- **[2024/10/25]** Now you can **Remotely Control** your computer 💻 through your mobile device 📱 — **No Mobile App Installation** required! Give it a try and have fun 🎉.
+## 更新日志
+- **[2025/02/08]** 我们添加了对[**UI-TARS**](https://github.com/bytedance/UI-TARS)的支持。按照[云部署](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#cloud-deployment)或[VLLM部署](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#local-deployment-vllm)指南在OOTB中本地实现UI-TARS。
+- **重大更新！[2024/12/04]** **本地运行🔥**现已上线！向[**<span style="color:rgb(106, 158, 210)">S</span><span style="color:rgb(111, 163, 82)">h</span><span style="color:rgb(209, 100, 94)">o</span><span style="color:rgb(238, 171, 106)">w</span>UI**](https://github.com/showlab/ShowUI)问好，这是一个开源的2B视觉-语言-动作（VLA）模型，用于GUI代理。现在兼容`"gpt-4o + ShowUI"（约便宜200倍）`*和`"Qwen2-VL + ShowUI"（约便宜30倍）`*，每个任务只需几美分💰！<span style="color: grey; font-size: small;">*相比Claude Computer Use</span>。
+- **[2024/11/20]** 我们添加了一些示例，帮助您获得Claude 3.5 Computer Use的实践经验。
+- **[2024/11/19]** 忘记Anthropic设置的单显示器限制 - 您现在可以使用**多显示器** 🎉！
+- **[2024/11/18]** 我们发布了Claude 3.5 Computer Use的深入分析：[https://arxiv.org/abs/2411.10323](https://arxiv.org/abs/2411.10323)。
+- **[2024/11/11]** 忘记Anthropic设置的低分辨率显示限制 - 您现在可以使用*任何分辨率*，同时保持**截图token成本低** 🎉！
+- **[2024/11/11]** 现在同时支持**Windows**和**macOS**平台 🎉！
+- **[2024/10/25]** 现在您可以通过移动设备📱**远程控制**您的电脑💻 - **无需安装移动应用**！试试看，玩得开心 🎉。
 
-
-## Demo Video
+## 演示视频
 
 https://github.com/user-attachments/assets/f50b7611-2350-4712-af9e-3d31e30020ee
 
 <div style="display: flex; justify-content: space-around;">
   <a href="https://youtu.be/Ychd-t24HZw" target="_blank" style="margin-right: 10px;">
-    <img src="https://img.youtube.com/vi/Ychd-t24HZw/maxresdefault.jpg" alt="Watch the video" width="48%">
+    <img src="https://img.youtube.com/vi/Ychd-t24HZw/maxresdefault.jpg" alt="观看视频" width="48%">
   </a>
   <a href="https://youtu.be/cvgPBazxLFM" target="_blank">
-    <img src="https://img.youtube.com/vi/cvgPBazxLFM/maxresdefault.jpg" alt="Watch the video" width="48%">
+    <img src="https://img.youtube.com/vi/cvgPBazxLFM/maxresdefault.jpg" alt="观看视频" width="48%">
   </a>
 </div>
 
+## 🚀 快速开始
 
-## 🚀 Getting Started
+### 0. 前置条件
+- 通过此[链接](https://www.anaconda.com/download?utm_source=anacondadocs&utm_medium=documentation&utm_campaign=download&utm_content=topnavalldocs)在您的系统上安装Miniconda。（**Python版本：>= 3.12**）。
+- 硬件要求（可选，用于ShowUI本地运行）：
+    - **Windows（支持CUDA）：** 兼容的NVIDIA GPU，支持CUDA，>=6GB显存
+    - **macOS（Apple Silicon）：** M1芯片（或更新），>=16GB统一内存
 
-### 0. Prerequisites
-- Instal Miniconda on your system through this [link](https://www.anaconda.com/download?utm_source=anacondadocs&utm_medium=documentation&utm_campaign=download&utm_content=topnavalldocs). (**Python Version: >= 3.12**).
-- Hardware Requirements (optional, for ShowUI local-run):
-    - **Windows (CUDA-enabled):** A compatible NVIDIA GPU with CUDA support, >=6GB GPU memory
-    - **macOS (Apple Silicon):** M1 chip (or newer), >=16GB unified RAM
-
-
-### 1. Clone the Repository 📂
-Open the Conda Terminal. (After installation Of Miniconda, it will appear in the Start menu.)
-Run the following command on **Conda Terminal**.
+### 1. 克隆仓库 📂
+打开Conda终端。（安装Miniconda后，它会在开始菜单中出现。）
+在**Conda终端**中运行以下命令。
 ```bash
 git clone https://github.com/showlab/computer_use_ootb.git
 cd computer_use_ootb
 ```
 
-### 2.1 Install Dependencies 🔧
+### 2.1 安装依赖 🔧
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2.2 (Optional) Get Prepared for **<span style="color:rgb(106, 158, 210)">S</span><span style="color:rgb(111, 163, 82)">h</span><span style="color:rgb(209, 100, 94)">o</span><span style="color:rgb(238, 171, 106)">w</span>UI** Local-Run
+### 2.2 （可选）为**<span style="color:rgb(106, 158, 210)">S</span><span style="color:rgb(111, 163, 82)">h</span><span style="color:rgb(209, 100, 94)">o</span><span style="color:rgb(238, 171, 106)">w</span>UI**本地运行做准备
 
-1. Download all files of the ShowUI-2B model via the following command. Ensure the `ShowUI-2B` folder is under the `computer_use_ootb` folder.
+1. 通过以下命令下载ShowUI-2B模型的所有文件。确保`ShowUI-2B`文件夹位于`computer_use_ootb`文件夹下。
 
     ```python
     python install_tools/install_showui.py
     ```
 
-2. Make sure to install the correct GPU version of PyTorch (CUDA, MPS, etc.) on your machine. See [install guide and verification](https://pytorch.org/get-started/locally/).
+2. 确保在您的机器上安装正确GPU版本的PyTorch（CUDA、MPS等）。参见[安装指南和验证](https://pytorch.org/get-started/locally/)。
 
-3. Get API Keys for [GPT-4o](https://platform.openai.com/docs/quickstart) or [Qwen-VL](https://help.aliyun.com/zh/dashscope/developer-reference/acquisition-and-configuration-of-api-key). For mainland China users, Qwen API free trial for first 1 mil tokens is [available](https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-qianwen-vl-plus-api).
+3. 获取[GPT-4o](https://platform.openai.com/docs/quickstart)或[Qwen-VL](https://help.aliyun.com/zh/dashscope/developer-reference/acquisition-and-configuration-of-api-key)的API密钥。中国大陆用户可获得Qwen API的100万token免费试用[链接](https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-qianwen-vl-plus-api)。
 
-### 2.3 (Optional) Get Prepared for **UI-TARS** Local-Run
+### 2.3 （可选）为**UI-TARS**本地运行做准备
 
-1. Follow [Cloud Deployment](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#cloud-deployment) or [VLLM deployment](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#local-deployment-vllm) guides to deploy your UI-TARS server.
+1. 按照[云部署](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#cloud-deployment)或[VLLM部署](https://github.com/bytedance/UI-TARS?tab=readme-ov-file#local-deployment-vllm)指南部署您的UI-TARS服务器。
 
-2. Test your UI-TARS sever with the script `.\install_tools\test_ui-tars_server.py`.
+2. 使用脚本`.\install_tools\test_ui-tars_server.py`测试您的UI-TARS服务器。
 
-### 2.4 (Optional) If you want to deploy Qwen model as planner on ssh server
-1. git clone this project on your ssh server
+### 2.4 （可选）如果您想在ssh服务器上部署Qwen模型作为规划器
+1. 在您的ssh服务器上克隆此项目
 
 2. python computer_use_demo/remote_inference.py
-### 3. Start the Interface ▶️
 
-**Start the OOTB interface:**
+### 3. 启动界面 ▶️
+
+**启动OOTB界面：**
 ```bash
 python app.py
 ```
-If you successfully start the interface, you will see two URLs in the terminal:
+如果您成功启动界面，您将在终端中看到两个URL：
 ```bash
 * Running on local URL:  http://127.0.0.1:7860
-* Running on public URL: https://xxxxxxxxxxxxxxxx.gradio.live (Do not share this link with others, or they will be able to control your computer.)
+* Running on public URL: https://xxxxxxxxxxxxxxxx.gradio.live（不要与他人分享此链接，否则他们将能够控制您的计算机。）
 ```
 
-
-> <u>For convenience</u>, we recommend running one or more of the following command to set API keys to the environment variables before starting the interface. Then you don’t need to manually pass the keys each run. On Windows Powershell (via the `set` command if on cmd): 
+> <u>为方便起见</u>，我们建议在启动界面之前运行以下一个或多个命令来设置API密钥到环境变量。这样您就不需要在每次运行时手动传递密钥。在Windows PowerShell上（如果在cmd上使用`set`命令）：
 > ```bash
-> $env:ANTHROPIC_API_KEY="sk-xxxxx" (Replace with your own key)
+> $env:ANTHROPIC_API_KEY="sk-xxxxx"（替换为您自己的密钥）
 > $env:QWEN_API_KEY="sk-xxxxx"
 > $env:OPENAI_API_KEY="sk-xxxxx"
 > ```
-> On macOS/Linux, replace `$env:ANTHROPIC_API_KEY` with `export ANTHROPIC_API_KEY` in the above command. 
+> 在macOS/Linux上，将上述命令中的`$env:ANTHROPIC_API_KEY`替换为`export ANTHROPIC_API_KEY`。
 
-
-### 4. Control Your Computer with Any Device can Access the Internet
-- **Computer to be controlled**: The one installed software.
-- **Device Send Command**: The one opens the website.
+### 4. 使用任何可访问互联网的设备控制您的计算机
+- **被控制的计算机**：安装了软件的计算机。
+- **发送命令的设备**：打开网站的设备。
   
-Open the website at http://localhost:7860/ (if you're controlling the computer itself) or https://xxxxxxxxxxxxxxxxx.gradio.live in your mobile browser for remote control.
+在您的移动浏览器中打开http://localhost:7860/（如果您正在控制同一台计算机）或https://xxxxxxxxxxxxxxxxx.gradio.live进行远程控制。
 
-Enter the Anthropic API key (you can obtain it through this [website](https://console.anthropic.com/settings/keys)), then give commands to let the AI perform your tasks.
+输入Anthropic API密钥（您可以通过此[网站](https://console.anthropic.com/settings/keys)获取），然后给出命令让AI执行您的任务。
 
-### ShowUI Advanced Settings
+### ShowUI高级设置
 
-We provide a 4-bit quantized ShowUI-2B model for cost-efficient inference (currently **only support CUDA devices**). To download the 4-bit quantized ShowUI-2B model:
+我们提供4位量化版本的ShowUI-2B模型用于成本效益推理（目前**仅支持CUDA设备**）。要下载4位量化版本的ShowUI-2B模型：
 ```
 python install_tools/install_showui-awq-4bit.py
 ```
-Then, enable the quantized setting in the 'ShowUI Advanced Settings' dropdown menu.
+然后，在'ShowUI高级设置'下拉菜单中启用量化设置。
 
-Besides, we also provide a slider to quickly adjust the `max_pixel` parameter in the ShowUI model. This controls the visual input size of the model and greatly affects the memory and inference speed.
+此外，我们还提供了一个滑块来快速调整ShowUI模型中的`max_pixel`参数。这控制模型的视觉输入大小，并极大地影响内存和推理速度。
 
-## 📊 GUI Agent Model Zoo
+## 📊 GUI代理模型库
 
-Now, OOTB supports customizing the GUI Agent via the following models:
+现在，OOTB支持通过以下模型自定义GUI代理：
 
-- **Unified Model**: Unified planner & actor, can both make the high-level planning and take the low-level control.
-- **Planner**: General-purpose LLMs, for handling the high-level planning and decision-making.
-- **Actor**: Vision-language-action models, for handling the low-level control and action command generation.
-
+- **统一模型**：统一的规划器和执行器，可以同时进行高级规划和低级控制。
+- **规划器**：通用LLM，用于处理高级规划和决策。
+- **执行器**：视觉-语言-动作模型，用于处理低级控制和动作命令生成。
 
 <div align="center">
-  <b>Supported GUI Agent Models, OOTB</b>
-
+  <b>OOTB支持的GUI代理模型</b>
 </div>
 <table align="center">
   <tbody>
     <tr align="center" valign="bottom">
       <td>
-        <b>[API] Unified Model</b>
+        <b>[API] 统一模型</b>
       </td>
       <td>
-        <b>[API] Planner</b>
+        <b>[API] 规划器</b>
       </td>
       <td>
-        <b>[Local] Planner</b>
+        <b>[本地] 规划器</b>
       </td>
       <td>
-        <b>[API] Actor</b>
+        <b>[API] 执行器</b>
       </td>
       <td>
-        <b>[Local] Actor</b>
+        <b>[本地] 执行器</b>
       </td>
     </tr>
     <tr valign="top">
@@ -177,7 +169,7 @@ Now, OOTB supports customizing the GUI Agent via the following models:
           <li><a href="">Qwen2-VL-2B(ssh)</a></li>
           <li><a href="">Qwen2-VL-7B(ssh)</a></li>
           <li><a href="">Qwen2.5-VL-7B(ssh)</a></li>
-          <li><a href="">Deepseek V3 (soon)</a></li>
+          <li><a href="">Deepseek V3（即将推出）</a></li>
         </ul>
       </td>
       <td>
@@ -189,7 +181,7 @@ Now, OOTB supports customizing the GUI Agent via the following models:
         <td>
         <ul>
           <li><a href="https://github.com/showlab/ShowUI">ShowUI</a></li>
-          <li><a href="https://huggingface.co/bytedance-research/UI-TARS-7B-DPO">UI-TARS-7B/72B-DPO (soon)</a></li> 
+          <li><a href="https://huggingface.co/bytedance-research/UI-TARS-7B-DPO">UI-TARS-7B/72B-DPO（即将推出）</a></li> 
         </ul>
       </td>
       <td>
@@ -202,58 +194,52 @@ Now, OOTB supports customizing the GUI Agent via the following models:
 </td>
 </table>
 
-> where [API] models are based on API calling the LLMs that can inference remotely, 
-and [Local] models can use your own device that inferences locally with no API costs.
+> 其中[API]模型基于远程推理的LLM API调用，
+而[本地]模型可以在您自己的设备上本地推理，无需API费用。
 
+## 🖥️ 支持的系统
+- **Windows**（Claude ✅, ShowUI ✅）
+- **macOS**（Claude ✅, ShowUI ✅）
 
-
-## 🖥️ Supported Systems
-- **Windows** (Claude ✅, ShowUI ✅)
-- **macOS** (Claude ✅, ShowUI ✅)
-
-## 👓 OOTB Iterface
+## 👓 OOTB界面
 <div style="display: flex; align-items: center; gap: 10px;">
   <figure style="text-align: center;">
-    <img src="./assets/gradio_interface.png" alt="Desktop Interface" style="width: auto; object-fit: contain;">
+    <img src="./assets/gradio_interface.png" alt="桌面界面" style="width: auto; object-fit: contain;">
   </figure>
 </div>
 
+## ⚠️ 风险提示
+- **模型可能执行危险操作**：模型的性能仍然有限，可能产生意外或潜在有害的输出。建议持续监控AI的操作。
+- **成本控制**：每个任务使用Claude 3.5 Computer Use可能需要几美元。💸
 
-## ⚠️ Risks
-- **Potential Dangerous Operations by the Model**: The models' performance is still limited and may generate unintended or potentially harmful outputs. Recommend continuously monitoring the AI's actions. 
-- **Cost Control**: Each task may cost a few dollars for Claude 3.5 Computer Use.💸
-
-## 📅 Roadmap
-- [ ] **Explore available features**
-  - [ ] The Claude API seems to be unstable when solving tasks. We are investigating the reasons: resolutions, types of actions required, os platforms, or planning mechanisms. Welcome any thoughts or comments on it.
-- [ ] **Interface Design**
-  - [x] **Support for Gradio** ✨
-  - [ ] **Simpler Installation**
-  - [ ] **More Features**... 🚀
-- [ ] **Platform**
+## 📅 路线图
+- [ ] **探索可用功能**
+  - [ ] Claude API在解决任务时似乎不稳定。我们正在调查原因：分辨率、所需操作类型、操作系统平台或规划机制。欢迎任何想法或评论。
+- [ ] **界面设计**
+  - [x] **支持Gradio** ✨
+  - [ ] **更简单的安装**
+  - [ ] **更多功能**... 🚀
+- [ ] **平台**
   - [x] **Windows**
   - [x] **macOS**
-  - [x] **Mobile** (Send command)
-  - [ ] **Mobile** (Be controlled)
-- [ ] **Support for More MLLMs**
+  - [x] **移动设备**（发送命令）
+  - [ ] **移动设备**（被控制）
+- [ ] **支持更多MLLM**
   - [x] **Claude 3.5 Sonnet** 🎵
   - [x] **GPT-4o**
   - [x] **Qwen2-VL**
-  - [ ] **Local MLLMs**
+  - [ ] **本地MLLM**
   - [ ] ...
-- [ ] **Improved Prompting Strategy**
-  - [ ] Optimize prompts for cost-efficiency. 💡
-- [x] **Improved Inference Speed**
-  - [x] Support int4 Quantization.
+- [ ] **改进提示策略**
+  - [ ] 优化提示以提高成本效益。💡
+- [x] **改进推理速度**
+  - [x] 支持int4量化。
 
-## Join Discussion
-Welcome to discuss with us and continuously improve the user experience of Computer Use - OOTB. Reach us using this [**Discord Channel**](https://discord.gg/vMMJTSew37) or the WeChat QR code below!
+## 加入讨论
+欢迎与我们讨论并持续改进Computer Use - OOTB的用户体验。通过这个[**Discord频道**](https://discord.gg/vMMJTSew37)或下面的微信二维码联系我们！
 
 <div style="display: flex; flex-direction: row; justify-content: space-around;">
-
-<!-- <img src="./assets/wechat_2.jpg" alt="gradio_interface" width="30%"> -->
 <img src="./assets/wechat_3.jpg" alt="gradio_interface" width="30%">
-
 </div>
 
 <div style="height: 30px;"></div>
@@ -261,7 +247,4 @@ Welcome to discuss with us and continuously improve the user experience of Compu
 <hr>
 <a href="https://computer-use-ootb.github.io">
 <img src="./assets/ootb_logo.png" alt="Logo" width="30%" style="display: block; margin: 0 auto; filter: invert(1) brightness(2);">
-</a>
-
-
-
+</a> 
